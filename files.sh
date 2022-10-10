@@ -1,7 +1,7 @@
 #!/bin/bash
 
 STATUS_FILE=last.txt
-name="kevin"
+name="user"
 
 if [ -f "$STATUS_FILE" ]; then
     num=$(cat $STATUS_FILE)
