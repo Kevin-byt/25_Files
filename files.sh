@@ -11,7 +11,8 @@ for i in {1..25}
 do
     fn=$(expr $num + $i)
     file="${name}-${fn}"
-    touch $fn.txt
+    # echo $file
+    touch $file.txt
 done
 
 echo $fn > $STATUS_FILE
